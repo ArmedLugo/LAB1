@@ -1,0 +1,44 @@
+
+.pl80{
+    padding-left: 80px;
+}
+
+.pl180{
+    padding-left: 180px;
+}
+
+#importante{
+    color:green;
+    font-size: medium;
+    
+}
+
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+div.header p {
+    align-self: auto;
+    font-size: 25px;
+    font-style: italic;
+    border-bottom: 2px solid;
+    margin: 0 20px 0 0;
+}
+
+#subtitulo{
+    font-size: 30px;
+}
+
+address.centered {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+@media only screen and (min-width: 768px) {
+    .esdiv{width: 8.33%;}
+    #importante{color: red;
+    }
+  }
